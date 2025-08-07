@@ -6,8 +6,8 @@ on:
   
   # Lên lịch chạy tự động
   schedule:
-    # Chạy vào lúc 17:00 UTC mỗi ngày, tương đương 00:00 (nửa đêm) giờ Việt Nam (UTC+7)
-    - cron: '0 17 * * *'
+    # Chạy vào lúc 17:00 UTC mỗi ngày, tương đương 05:00 sáng giờ Việt Nam (UTC+7)
+    - cron: '0 22 * * *'
 
 jobs:
   # Tên của job
