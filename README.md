@@ -6,7 +6,7 @@ Quá trình này được tự động hóa bằng GitHub Actions để chạy h
 
 ## Cách hoạt động
 
--   **GitHub Actions** sẽ tự động kích hoạt vào lúc 00:00 giờ Việt Nam mỗi ngày (hoặc khi được chạy thủ công).
+-   **GitHub Actions** sẽ tự động kích hoạt vào lúc 05:00 sáng giờ Việt Nam mỗi ngày (hoặc khi được chạy thủ công).
 -   Nó sẽ chạy tệp `main.py`.
 -   Script sẽ thực hiện 3 bước:
     1.  **Lấy Token**: Kết nối đến Caspio bằng `Client ID` và `Client Secret` để lấy token xác thực tạm thời.
